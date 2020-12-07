@@ -7,10 +7,21 @@
 # Steps:
 #   Take a string as an input
 #   Break that string into 4 parts of equal length
+#   Convert to binary
+#   Preform an XOR function on it
 #
+
+
+#
+# Take a binary flow as an input
+# Break that flow into (4, 6, 8, 10) parts
+# Pad any parts so everything is the exact same length
+# Preform a bitwise XOR (^) function on two parts at a time
+# Preform modular addition for each of the parts
 #
 
 import math
+
 
 
 def break_string(_input, _chunks):
